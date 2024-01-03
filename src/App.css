@@ -1,0 +1,63 @@
+body {
+  color:white;
+  background-color: black;
+  text-align: center;
+  border: 5px solid black;
+  margin: 20px 150px 20px 150px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.intro {
+  font-size: 25px;
+}
+
+.intro > p {
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+.email {
+  margin-right: 20px;
+  width: 150px;
+  height: 30px;
+  padding-bottom: 30px;
+
+}
+
+.linkedin {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: rgb(100, 149, 218);
+  padding-bottom: 30px;
+  
+}
+
+.email > img {
+  margin-right: 10px;
+}
+
+.linkedin > img {
+  margin-right: 10px;
+ 
+}
+
+.self > h3 {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+footer{
+  
+  display: flex;
+}
+
+footer >a >img {
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 40px;
+ 
+}
+

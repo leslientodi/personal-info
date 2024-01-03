@@ -5,17 +5,17 @@ function InfoPage (){
   return (
     <>
       <img src='../src/images/personal.jpeg'></img>
-      <div>
+      <div className='intro'>
         <h2>Nana Ntodi</h2>
         <p>Frontend Developer</p>
 
       </div>
-      <div>
-        <button>Email</button>
-        <button>LinkedIn</button>
+      <div className='soc-buttons'>
+        <button className='email'><img src='../src/images/email.jpeg' width='20px'></img>Email</button>
+        <button className='linkedin'><img src='../src/images/bluelink.jpeg' width='20px'></img>LinkedIn</button>
 
       </div>
-      <div>
+      <div className='self'>
         <h3>About</h3>
         <small>
           Hey there! I'm the epitome of cool. With an effortless swagger,
